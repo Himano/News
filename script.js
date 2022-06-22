@@ -42,7 +42,7 @@ function NrkTopp() {
         news.innerHTML += `
         
         <div class="news-card" id="news-card${index}" >
-        
+        <img class="logo" src="images/nrkLogo.png" alt="">
             <p class="tittel ">${title}</p>  
 
             <div class="info hidden"> <p>
@@ -100,6 +100,7 @@ function tv2 () {
         news.innerHTML += `
         
         <div class="news-card" id="news-card2${index}" >
+        <img class="logo" src="images/tv2Logo.png" alt="">
         
             <p class="tittel ">${title2}</p>  
 
