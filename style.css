@@ -113,3 +113,16 @@ overflow: scroll;
 .ncA:hover {
     text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .news-card {
+        margin: 15px;
+        width: 95%;
+        height: 28%;
+        background-color:black;
+        background-size: cover;
+        border-radius:5px;
+        position: relative;
+    }
+  }
